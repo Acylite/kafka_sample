@@ -1,0 +1,20 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd">
+    <mirrors>
+        <mirror>
+            <id>confluent-repository-http-unblocker</id>
+            <mirrorOf>confluent</mirrorOf>
+            <name></name>
+            <url>http://packages.confluent.io/maven/</url>
+            <blocked>false</blocked>
+        </mirror>
+        <mirror>
+            <id>apache-snapshots-repository-http-unblocker</id>
+            <mirrorOf>apache.snapshots</mirrorOf>
+            <name></name>
+            <url>https://repository.apache.org/content/repositories/snapshots</url>
+            <blocked>false</blocked>
+        </mirror>
+    </mirrors>
+</settings>
